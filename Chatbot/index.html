@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hackathletes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="primary">
+    <div class="main">
+        <u><b><h1>Help Mentor</h1></b></u>
+        <div class="chat-container">
+            <ol>
+                <li>
+                    <label for="ans1">Q. How would you rate your overall diet and nutrition habits? (1 = Poor, 5 = Excellent)</label>
+                    <input type="text" name="q1" id="ans1">
+                </li> 
+                <li>
+                    <label for="ans2">Q. On a scale of 1 to 5, how consistent are you with drinking an adequate amount of water daily?</label>
+                    <input type="text" name="q2" id="ans2">
+                </li> 
+                <li>
+                    <label for="ans3">Q. Rate your level of physical activity and exercise routine. (1 = Sedentary, 5 = Very active)</label>
+                    <input type="text" name="q3" id="ans3">
+                </li> 
+                <li>
+                    <label for="ans4">Q. well do you manage stress in your daily life? (1 = Poorly, 5 = Very well)</label>
+                    <input type="text" name="q4" id="ans4">
+                </li> 
+                <li>
+                    <label for="ans5">Q. Rate the quality and quantity of sleep you get each night. (1 = Very poor, 5 = Excellent)</label>
+                    <input type="text" name="q5" id="ans5">
+                </li>
+                <li>
+                    <label for="ans6">Q. How would you rate your mental health and emotional well-being? (1 = Poor, 5 = Excellent)
+                    </label>
+                    <input type="text" name="q6" id="ans6">
+                </li>
+                <li>
+                    <label for="ans7">Q. On a scale of 1 to 5, how often do you undergo preventive health screenings?</label>
+                    <input type="text" name="q7" id="ans7">
+                </li>
+                <li>
+                    <label for="ans8">Q. Rate your efforts in quitting smoking or reducing tobacco use. (1 = Not trying, 5 = Successfully quit)</label>
+                    <input type="text" name="q8" id="ans8">
+                </li>
+                <li>
+                    <label for="ans9">Q.  proactive are you in reducing your risk of chronic diseases like diabetes and heart disease? proactive are you in reducing your risk of chronic diseases like diabetes and heart disease? (1 = Not proactive, 5 = Very proactive)</label>
+                    <input type="text" name="q9" id="ans9">
+                </li>
+                <li>
+                    <label for="ans10">Q. Rate your adherence to good hygiene habits. (1 = Poor, 5 = Excellent)
+                    </label>
+                    <input type="text" name="q10" id="ans10">
+                </li>
+            </ol>
+            <div class="chat-input" style="border: none; display: flex; justify-content: center;">
+                <button type="button" class="btn btn-primary" id="send_button">Submit</button>
+            </div>
+            <input type="text" name="result" id="result">
+        </div>
+        <script type="module" src="script.js"></script>
+    </div>
+</body>
+</html>
